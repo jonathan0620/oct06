@@ -1,0 +1,13 @@
+package 상속;
+
+public class 스레드프로그래밍3 {
+
+	public static void main(String[] args) {
+		별오천개스레드 star = new 별오천개스레드();
+		이름오천개스레드 name = new 이름오천개스레드();
+		
+		star.start();
+		name.start();
+	}
+
+}
